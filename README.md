@@ -1,7 +1,7 @@
 ## Part 1: Gram-Schmidt on an input matrix
 This section involves passing an input matrix to the GramSchmidt function, which applies the Gram-Schmidt orthogonalization algorithm to generate a collection of basis functions. Then, the function generates a plot of the basis function's constellation diagram.
 
-For illustration, We will pass a test matrix where each symbol is 3 duration is unit time.
+For illustration, A test matrix is passed to the function where each symbol duration is 3 units of time.
 ```
 M = [1 0 0;1 1 0;0 1 1;1 1 1];
 [coeffecients, symbols_energy] = GramSchmidt(M, 3);
