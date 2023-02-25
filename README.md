@@ -26,7 +26,7 @@ M = [1 0 0;1 1 0;0 1 1;1 1 1];
 ## Part 2: Transmission of polar NRZ data through AWGN channel
 This part involves simulating the transmission of binary data through an AWGN channel and generating a constellation plot of the received symbols. Subsequently, the code computes the bit error rate (BER) and compares it to the theoretical BER.
 
-For example, We will pass binary data of amplitudes 1 and -1, each symbol has unit duration and equal probability.
+For example, Binary symbols of amplitudes 1 and -1 are passed to the function, each symbol has unit duration and equal probability.
 ```
 binaryNRZ_BER([1; -1], 1, 0.5)
 ```
